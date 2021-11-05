@@ -6,7 +6,7 @@ phases:
     runtime-versions:
       java: corretto8
     commands:
-      - echo install_java_runtime
+      - echo install
   pre_build:
     on-failure: ABORT | CONTINUE
     commands:
