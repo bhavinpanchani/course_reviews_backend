@@ -37,13 +37,13 @@
 		</dependency>
 		<!-- <dependency> <groupId>mysql</groupId> <artifactId>mysql-connector-java</artifactId> 
 			<scope>runtime</scope> </dependency> -->
-		<dependencies>
-			<dependency>
-				<groupId>software.aws.rds</groupId>
-				<artifactId>aws-mysql-jdbc</artifactId>
-				<version>0.2.0</version>
-			</dependency>
-		</dependencies>
+
+		<dependency>
+			<groupId>software.aws.rds</groupId>
+			<artifactId>aws-mysql-jdbc</artifactId>
+			<version>0.2.0</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
