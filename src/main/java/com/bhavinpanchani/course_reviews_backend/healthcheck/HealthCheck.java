@@ -8,7 +8,7 @@ public class HealthCheck {
 
 	@GetMapping("/health-check")
 	public String getHealthCheckStatus() {
-		return "200 - OK";
+		return "Service up and running";
 	}
 	
 }
