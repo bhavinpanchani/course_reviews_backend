@@ -34,6 +34,7 @@ public class UniversityController {
         log.info("An INFO Message");
         log.warn("A WARN Message");
         log.error("An ERROR Message");
+        
 		return universityService.findAllUniversity();
 	}
 
@@ -63,6 +64,7 @@ public class UniversityController {
 	@DeleteMapping("/id/{id}")
 	public void delteUniversity(@PathVariable Long id) {
 		universityService.deleteUniversity(id);
-	}
-
+	} 
+	
+	
 }
