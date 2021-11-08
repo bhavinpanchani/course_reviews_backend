@@ -1,1 +1,1 @@
-web: java -jar target/course_reviews_backend-0.0.1-SNAPSHOT.jar -p 5000
+web: java -jar target/course_reviews_backend-0.0.1-SNAPSHOT.jar -p $PORT
