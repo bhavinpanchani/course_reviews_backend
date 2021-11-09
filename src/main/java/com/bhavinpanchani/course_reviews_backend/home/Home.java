@@ -8,7 +8,7 @@ public class Home {
 
 	@GetMapping("/")
 	public String homePage() {
-		return "Welcome to StudyON - Find all details for Universities, Majors, Courses, Professors";
+		return "Welcome to StudyON \nFind all details for Universities, Majors, Courses, Professors";
 	}
 	
 }
