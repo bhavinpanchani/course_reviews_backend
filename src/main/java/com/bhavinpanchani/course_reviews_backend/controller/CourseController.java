@@ -33,6 +33,7 @@ public class CourseController {
 	
 	@PostMapping("/uid/{universityId}/mid/{majorId}")
 	public Course saveCourse(@RequestBody Course course, @PathVariable Long universityId, @PathVariable Long majorId){
+		System.out.print("Hello there");
 		return courseService.saveCourse(course, universityId, majorId);
 	}
 	
